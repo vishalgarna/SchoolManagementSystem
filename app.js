@@ -1,9 +1,9 @@
 const express = require('express');
-const schoolRoutes = require('./routes/schoolRoutes');
 require('dotenv').config();
-
+require("./db")
 const app = express();
 app.use(express.json());
+
 
 
 const mysql = require('mysql2/promise');
