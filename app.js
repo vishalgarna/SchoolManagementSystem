@@ -4,6 +4,8 @@ require("./db")
 const app = express();
 app.use(express.json());
 
+console.log("addinc some more content ");
+
 
 
 const mysql = require('mysql2/promise');
